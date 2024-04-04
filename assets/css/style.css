@@ -62,7 +62,7 @@ nav ul{
 .text-right{
     align-items: flex-end;
     text-align: right;
-    background-image: url(/assets/img/illustration2.png);
+    background-image: url(../img/illustration2.png);
     background-size: 35%;
     background-repeat: no-repeat;
     background-position: left;
@@ -73,11 +73,11 @@ nav ul{
 }
 
 .hero{
-    background-image: url(/assets/img/illustration1.gif);
+    background-image: url(../img/illustration1.gif);
 }
 
 .text-left{
-    background-image: url(/assets/img/illustration3.png);
+    background-image: url(../img/illustration3.png);
 }
 
 .hero-btn{
@@ -125,15 +125,15 @@ nav ul{
 }
 
 .img-one{
-    background-image: url(/assets/img/illustration4.png);
+    background-image: url(../img/illustration4.png);
 }
 
 .img-two{
-    background-image: url(/assets/img/illustration5.png);
+    background-image: url(../img/illustration5.png);
 }
 
 .img-three{
-    background-image: url(/assets/img/illustration6.png);
+    background-image: url(../img/illustration6.png);
 }
 
 .gallery{
@@ -153,27 +153,27 @@ nav ul{
 }
 
 .g-i-1{
-    background-image: url(/assets/img/illustration7.jpg);
+    background-image: url(../img/illustration7.jpg);
 }
 
 .g-i-2{
-    background-image: url(/assets/img/illustration8.jpg);
+    background-image: url(../img/illustration8.jpg);
 }
 
 .g-i-3{
-    background-image: url(/assets/img/illustration9.jpg);
+    background-image: url(../img/illustration9.jpg);
 }
 
 .g-i-4{
-    background-image: url(/assets/img/illustration10.jpg);
+    background-image: url(../img/illustration10.jpg);
 }
 
 .g-i-5{
-    background-image: url(/assets/img/illustration11.jpg);
+    background-image: url(../img/illustration11.jpg);
 }
 
 .g-i-6{
-    background-image: url(/assets/img/illustration12.jpg);
+    background-image: url(../img/illustration12.jpg);
 }
 
 
