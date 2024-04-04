@@ -12,4 +12,219 @@ html{
 h1, h2{
     font-family: "Merriweather", serif;
     text-transform: lowercase;
+    font-size: 3em;
+
+}
+
+header{
+    height: 3em;
+    padding: 1em 3em 0 0;
+}
+
+main, footer{
+    margin: 0 auto;
+    max-width: 60vw;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.hero, .text-right, .text-left{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero p, .text-right p, .text-left p{
+    margin: 2em 0;
+}
+
+.hero h1, .text-right h2, .text-left h2{
+    max-width: 35vw;
+}
+
+.hero, .text-left{
+    align-items: flex-start;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.text-right{
+    align-items: flex-end;
+    text-align: right;
+    background-image: url(/assets/img/illustration2.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.hero > p, .text-right > p, .text-left > p{
+    max-width: 35vw;
+}
+
+.hero{
+    background-image: url(/assets/img/illustration1.gif);
+}
+
+.text-left{
+    background-image: url(/assets/img/illustration3.png);
+}
+
+.hero-btn{
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+
+.btn-dark{
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+}
+
+.btn-light{
+    border: 1px solid gray;
+    background-color: transparent;
+    color: black;
+}
+
+.row-three, .portfolio, .shop, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8em;
+    gap: 2.5em;
+}
+
+.three-img-row{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.img-row-image{
+    width: 20vw;
+    height: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-one{
+    background-image: url(/assets/img/illustration4.png);
+}
+
+.img-two{
+    background-image: url(/assets/img/illustration5.png);
+}
+
+.img-three{
+    background-image: url(/assets/img/illustration6.png);
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gallery-item{
+    width: 27vw;
+    height: 15vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.g-i-1{
+    background-image: url(/assets/img/illustration7.jpg);
+}
+
+.g-i-2{
+    background-image: url(/assets/img/illustration8.jpg);
+}
+
+.g-i-3{
+    background-image: url(/assets/img/illustration9.jpg);
+}
+
+.g-i-4{
+    background-image: url(/assets/img/illustration10.jpg);
+}
+
+.g-i-5{
+    background-image: url(/assets/img/illustration11.jpg);
+}
+
+.g-i-6{
+    background-image: url(/assets/img/illustration12.jpg);
+}
+
+
+.pricing{
+    background-color: #eef7fd;
+    padding: 3em;
+}
+
+.pricing ul{
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+.pricing h3{
+    font-family: "Merriweather", serif;
+    text-transform: lowercase;
+    font-size: 1.5em;
+}
+
+.price-tag{
+    font-family: "Merriweather", serif;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.price-addition{
+    color: gray;
+    margin-bottom: 1em;
+}
+
+.purchase-btn{
+    padding: 1em 2em;
+    background-color: #55acee;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+footer li{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer li:nth-last-of-type(2){
+    color: #FCAF45;
+}
+
+footer li:nth-last-of-type(3){
+    color: #55ACEE;
+}
+
+footer li:nth-last-of-type(4){
+    color: #C4302B;
 }
